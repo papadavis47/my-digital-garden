@@ -49,10 +49,18 @@ const Card = () => {
       <h1>papadavis47</h1>
       <h2>my digital garden</h2>
       <div className='icons'>
-        <a href='https://twitter.com/papadavis47'>
+        <a
+          href='https://twitter.com/papadavis47'
+          rel='noreferrer'
+          target='_blank'
+        >
           <RiTwitterFill />
         </a>
-        <a href='https://github.com/papadavis47'>
+        <a
+          href='https://github.com/papadavis47'
+          rel='noreferrer'
+          target='_blank'
+        >
           <RiGithubFill />
         </a>
         <a
