@@ -41,6 +41,12 @@ const StyledCard = styled.div`
     font-size: 1.5rem;
     color: hsl(26.6, 97.9%, 62.9%);
   }
+
+  @media screen and (max-width: 500px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
 `;
 
 const Card = () => {
