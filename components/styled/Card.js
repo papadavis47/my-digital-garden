@@ -46,6 +46,8 @@ const StyledCard = styled.div`
     margin-left: 16px;
     margin-right: 16px;
 
+    width: 90%;
+
     h2 {
       font-size: 1.5rem;
     }
