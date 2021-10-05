@@ -43,6 +43,9 @@ const StyledCard = styled.div`
   }
 
   @media screen and (max-width: 500px) {
+    margin-left: 16px;
+    margin-right: 16px;
+
     h2 {
       font-size: 1.5rem;
     }
