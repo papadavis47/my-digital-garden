@@ -22,7 +22,7 @@ const StyledCard = styled.div`
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin-bottom: 16px;
     font-style: italic;
     color: hsl(133.3, 62.7%, 67.5%);
@@ -42,10 +42,6 @@ const StyledCard = styled.div`
   p {
     font-size: 1.5rem;
     color: hsl(26.6, 97.9%, 62.9%);
-  }
-
-  h2 {
-    font-size: 1.5rem;
   }
 
   @media screen and (max-width: 500px) {
