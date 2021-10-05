@@ -26,6 +26,8 @@ const StyledCard = styled.div`
     margin-bottom: 16px;
     font-style: italic;
     color: hsl(133.3, 62.7%, 67.5%);
+    letter-spacing: 4px;
+    text-transform: capitalize;
   }
 
   .icons {
@@ -42,15 +44,13 @@ const StyledCard = styled.div`
     color: hsl(26.6, 97.9%, 62.9%);
   }
 
+  h2 {
+    font-size: 1.5rem;
+  }
+
   @media screen and (max-width: 500px) {
-    margin-left: 16px;
-    margin-right: 16px;
-
-    width: 90%;
-
-    h2 {
-      font-size: 1.5rem;
-    }
+    flex-basis: 300px;
+    max-width: 300px;
   }
 `;
 
