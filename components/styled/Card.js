@@ -13,10 +13,11 @@ const StyledCard = styled.div`
   align-items: center;
   justify-content: center;
   padding: 48px;
-  border-radius: 0.5rem;
+  border: 5px solid hsl(222.2, 65.8%, 52.9%);
+  border-radius: 0.25rem;
 
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 16px;
     color: hsl(222.2, 65.8%, 52.9%);
   }
@@ -31,7 +32,7 @@ const StyledCard = styled.div`
   }
 
   .icons {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 16px;
   }
 
@@ -40,13 +41,15 @@ const StyledCard = styled.div`
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: hsl(26.6, 97.9%, 62.9%);
   }
 
   @media screen and (max-width: 500px) {
-    flex-basis: 300px;
     max-width: 300px;
+    h2 {
+      font-size: 1rem;
+    }
   }
 `;
 
