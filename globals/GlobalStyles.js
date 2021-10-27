@@ -24,7 +24,7 @@ html{
 body{
   min-height:100%;
   font-family: 'Roboto', sans-serif;
-  background: hsl(229.7,74.4%,69.4%);
+  background: hsl(229.7,74.4%,69.4%, 0.2);
 }
 
 `;
