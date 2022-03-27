@@ -1,10 +1,6 @@
 import styled from "styled-components";
 import Link from "next/link";
-import {
-  RiGithubFill,
-  RiStackOverflowFill,
-  RiTwitterFill,
-} from "react-icons/ri";
+import { RiGithubFill, RiStackOverflowFill, RiTwitterFill, RiLinksFill } from "react-icons/ri";
 
 const StyledCard = styled.div`
   background: hsl(0, 0%, 100%);
@@ -34,6 +30,17 @@ const StyledCard = styled.div`
   .icons {
     font-size: 2rem;
     margin-bottom: 16px;
+    display: flex;
+  }
+
+  .entry {
+    display: flex;
+    font-size: 1.25rem;
+    padding: 10px;
+  }
+
+  .enter-text {
+    margin-right: 10px;
   }
 
   a {
@@ -59,18 +66,10 @@ const Card = () => {
       <h1>papadavis47</h1>
       <h2>my digital garden</h2>
       <div className='icons'>
-        <a
-          href='https://twitter.com/papadavis47'
-          rel='noreferrer'
-          target='_blank'
-        >
+        <a href='https://twitter.com/papadavis47' rel='noreferrer' target='_blank'>
           <RiTwitterFill />
         </a>
-        <a
-          href='https://github.com/papadavis47'
-          rel='noreferrer'
-          target='_blank'
-        >
+        <a href='https://github.com/papadavis47' rel='noreferrer' target='_blank'>
           <RiGithubFill />
         </a>
         <a
@@ -82,7 +81,15 @@ const Card = () => {
           <RiStackOverflowFill />
         </a>
       </div>
-      <p>Under construction 🛠️</p>
+      <Link href='/garden'>
+        <a>
+          <div className='entry'>
+            <p className='enter-text'>Enter Garden</p>
+
+            <RiLinksFill color='red' />
+          </div>
+        </a>
+      </Link>
     </StyledCard>
   );
 };
