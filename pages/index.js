@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <SimpleWrapper>
       <Head>
-        <title>my digital garden</title>
-        <meta name='description' content='digital garden for papadavis47' />
-        <link rel='icon' href='/favicon.ico' />
+        <title>my digital sandbox</title>
+        <meta name='description' content='Digital sandbox for papadavis47' />
+        <link rel='icon' href='/surfing.ico' />
       </Head>
       <Card />
     </SimpleWrapper>
