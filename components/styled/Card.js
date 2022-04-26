@@ -52,10 +52,11 @@ const StyledCard = styled.div`
     color: hsl(26.6, 97.9%, 62.9%);
   }
 
-  @media screen and (max-width: 500px) {
-    max-width: 300px;
+  @media screen and (max-width: 600px) {
+    max-width: 400px;
     h2 {
-      font-size: 1rem;
+      font-size: 0.75rem;
+      font-weight: bold;
     }
   }
 `;
