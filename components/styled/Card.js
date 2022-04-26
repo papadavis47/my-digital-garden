@@ -64,7 +64,7 @@ const Card = () => {
   return (
     <StyledCard>
       <h1>papadavis47</h1>
-      <h2>my digital sandbox</h2>
+      <h2>a developer sandbox</h2>
       <div className='icons'>
         <a href='https://twitter.com/papadavis47' rel='noreferrer' target='_blank'>
           <RiTwitterFill />

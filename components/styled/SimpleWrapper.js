@@ -5,7 +5,8 @@ const SimpleWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  min-height: 100vh;
+  padding: 20px 50px;
 `;
 
 export default SimpleWrapper;
