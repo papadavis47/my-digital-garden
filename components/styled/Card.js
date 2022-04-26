@@ -64,7 +64,7 @@ const Card = () => {
   return (
     <StyledCard>
       <h1>papadavis47</h1>
-      <h2>my digital garden</h2>
+      <h2>my digital sandbox</h2>
       <div className='icons'>
         <a href='https://twitter.com/papadavis47' rel='noreferrer' target='_blank'>
           <RiTwitterFill />
@@ -81,10 +81,10 @@ const Card = () => {
           <RiStackOverflowFill />
         </a>
       </div>
-      <Link href='/garden'>
+      <Link href='/sandbox'>
         <a>
           <div className='entry'>
-            <p className='enter-text'>Enter Garden</p>
+            <p className='enter-text'>Enter Sandbox</p>
 
             <RiLinksFill color='red' />
           </div>
